@@ -1,0 +1,36 @@
+h1{
+    color: #24c2ba;
+    background-color:cyan;
+    height: 50px;
+}
+.links{
+    text-align: right;
+    margin-top: -60px;
+}
+.footer{
+    margin-top: 550px;
+    margin-left: 550px;
+}
+body{
+    background-color: darkgray;
+}
+.boxes{
+    background-color: #f1ff2f;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+    border-radius: 30px;
+    border:solid;
+    position:relative;
+    margin-right: 25px;
+    margin-top: 20px;
+}
+.bigBox{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.twoBox{
+    flex-wrap: wrap;
+}
